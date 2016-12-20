@@ -1,0 +1,195 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-Editor.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp.dll
+-r:Library/ScriptAssemblies/Assembly-UnityScript.dll
+-r:Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:"Assets/JMO Assets/Editor/JMOAssets.dll"
+-r:Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll
+-r:Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll
+-r:Assets/PlayServicesResolver/Editor/Google.JarResolver.dll
+-r:Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+-r:Assets/Plugins/Editor/AdvancedInspector/AdvancedInspector.dll
+-r:Assets/Plugins/Editor/AdvancedInspector/UniToolsEditor.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_0
+-define:UNITY_5_4
+-define:UNITY_5
+-define:UNITY_ADS
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_DUCK_TYPING
+-define:CROSS_PLATFORM_INPUT
+Assets/AndroidUltimatePlugin/Common/Extension/UGUI/Editor/uGUITools.cs
+Assets/AutoSave/Editor/AutoSaveExtension.cs
+Assets/Buildr/Editor/BuildrBuiltInTextureEditor.cs
+Assets/Buildr/Editor/BuildrEditModeBuilding.cs
+Assets/Buildr/Editor/BuildrEditModeDetails.cs
+Assets/Buildr/Editor/BuildrEditModeEditor.cs
+Assets/Buildr/Editor/BuildrEditModeExport.cs
+Assets/Buildr/Editor/BuildrEditModeFacades.cs
+Assets/Buildr/Editor/BuildrEditModeFloorplan.cs
+Assets/Buildr/Editor/BuildrEditModeHUD.cs
+Assets/Buildr/Editor/BuildrEditModeInterior.cs
+Assets/Buildr/Editor/BuildrEditModeOptions.cs
+Assets/Buildr/Editor/BuildrEditModeRoofs.cs
+Assets/Buildr/Editor/BuildrEditModeTextures.cs
+Assets/Buildr/Editor/BuildrEditorData.cs
+Assets/Buildr/Editor/BuildrGenerateModeEditor.cs
+Assets/Buildr/Editor/BuildrImporter.cs
+Assets/Buildr/Editor/BuildrMenu.cs
+Assets/Buildr/Scripts/Utils/Editor/BuildrXMLExporter.cs
+Assets/Buildr/Scripts/Utils/Editor/BuildrXMLImporter.cs
+Assets/Buildr/Scripts/Utils/Editor/FBXExporter.cs
+Assets/Buildr/Scripts/Utils/Editor/OBJExporter.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Editor/EasyTouchInspector.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Editor/EasyTouchMenu.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Editor/EasyTouchTriggerInspector.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Editor/EasytouchHierachyCallBack.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Editor/HTGuiTools.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCAreaInspector.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCAxisInspector.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCButtonInspector.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCDPadInspector.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCGuiTools.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCJoystickInspector.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCMenu.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/Editor/ETCTouchPadInspector.cs
+Assets/Editor/CrossPlatformInput/CrossPlatformInputInitialize.cs
+Assets/Editor/ImageEffects/AntialiasingEditor.cs
+Assets/Editor/ImageEffects/BloomAndFlaresEditor.cs
+Assets/Editor/ImageEffects/BloomEditor.cs
+Assets/Editor/ImageEffects/CameraMotionBlurEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionCurvesEditor.cs
+Assets/Editor/ImageEffects/ColorCorrectionLookupEditor.cs
+Assets/Editor/ImageEffects/CreaseShadingEditor.cs
+Assets/Editor/ImageEffects/DepthOfFieldDeprecatedEditor.cs
+Assets/Editor/ImageEffects/DepthOfFieldEditor.cs
+Assets/Editor/ImageEffects/EdgeDetectionEditor.cs
+Assets/Editor/ImageEffects/NoiseAndGrainEditor.cs
+Assets/Editor/ImageEffects/SunShaftsEditor.cs
+Assets/Editor/ImageEffects/TonemappingEditor.cs
+Assets/Editor/ImageEffects/VignetteAndChromaticAberrationEditor.cs
+Assets/Editor/Water/Water4/GerstnerDisplaceEditor.cs
+Assets/Editor/Water/Water4/PlanarReflectionEditor.cs
+Assets/Editor/Water/Water4/SpecularLightingEditor.cs
+Assets/Editor/Water/Water4/WaterBaseEditor.cs
+Assets/Editor/Water/Water4/WaterEditorUtility.cs
+Assets/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs
+Assets/GooglePlayGames/Editor/GPGSDependencies.cs
+Assets/GooglePlayGames/Editor/GPGSDocsUI.cs
+Assets/GooglePlayGames/Editor/GPGSIOSSetupUI.cs
+Assets/GooglePlayGames/Editor/GPGSPostBuild.cs
+Assets/GooglePlayGames/Editor/GPGSProjectSettings.cs
+Assets/GooglePlayGames/Editor/GPGSStrings.cs
+Assets/GooglePlayGames/Editor/GPGSUpgrader.cs
+Assets/GooglePlayGames/Editor/GPGSUtil.cs
+Assets/GooglePlayGames/Editor/NearbyConnectionUI.cs
+Assets/GooglePlayGames/Editor/PlistBuddyHelper.cs
+Assets/GooglePlayGames/Editor/xcode/Elements.cs
+Assets/GooglePlayGames/Editor/xcode/Lexer.cs
+Assets/GooglePlayGames/Editor/xcode/Objects.cs
+Assets/GooglePlayGames/Editor/xcode/PBXProject.cs
+Assets/GooglePlayGames/Editor/xcode/Parser.cs
+Assets/GooglePlayGames/Editor/xcode/Sections.cs
+Assets/GooglePlayGames/Editor/xcode/Serializer.cs
+Assets/GooglePlayGames/Editor/xcode/Utils.cs
+"Assets/JMO Assets/Cartoon FX Easy Editor/Editor/CFXEasyEditor.cs"
+"Assets/JMO Assets/Cartoon FX/CFX2 Prefabs/Misc/Variants/Editor/NewEditorTest.cs"
+"Assets/JMO Assets/Cartoon FX/Editor/CFX_SpawnSystemEditor.cs"
+Assets/Movinarc/PackageUninstaller/Editor/PUManager.cs
+Assets/Movinarc/PackageUninstaller/Editor/PUSelection.cs
+Assets/Movinarc/PackageUninstaller/Editor/TreeNode.cs
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\2.0\System.Runtime.Serialization.dll"
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll"

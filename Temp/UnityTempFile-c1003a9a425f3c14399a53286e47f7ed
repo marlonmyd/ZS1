@@ -1,0 +1,733 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\PlaybackEngines\AndroidPlayer/Variations/mono/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Standalone/UnityEngine.UI.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Networking/Standalone/UnityEngine.Networking.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_0
+-define:UNITY_5_4
+-define:UNITY_5
+-define:UNITY_ADS
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:CROSS_PLATFORM_INPUT
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Callback/AccountInfoCallback.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Callback/BatteryCallback.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Callback/ContactCallback.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Callback/DeviceInfoCallback.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Callback/InternetCallback.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/AccountInfoDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/AndroidAdvanceInfoDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/AndroidFinishActivityInfoDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/BatteryLifeDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/ContactInfoDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/InternetInfoDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Example/TimeDemo.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/AccountInfoPlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/BatteryPlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/ContactInfoPlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/DeviceInfoPlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/InternetPlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Main/TimePlugin.cs
+Assets/AndroidUltimatePlugin/AndroidInfoScanner/Scripts/Test/InternetSpeedChecker.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/AlarmCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/BluetoothConnectionCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/BluetoothDataCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/CameraCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/CustomCameraCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/ImagePickerCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Callback/NotificationCallback.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/AlarmDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/AndroidNativeUIDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/AudioRecorderExample.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/BlueToothDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/CameraDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/CameraFragmentDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/CustomCameraDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/FlashlightDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/GooglePlayGamesControllerDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/ImagePickerDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/LocalNotificationDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/ShareAndExperienceDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/ShareExistingTextureDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/ShareTextureFromWebDemo.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Examples/VibrationExample.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Helpers/HideShowGameObject.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/AlarmPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/AudioRecorderPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/BlueToothPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/CameraFragmentPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/CameraPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/CustomCameraPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/FlashlightPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/ImagePickerPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/LocalNotificationPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/SharePlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Main/VibratorPlugin.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Tests/SceneController.cs
+Assets/AndroidUltimatePlugin/BasicPlugin/Scripts/Tests/SceneUIController.cs
+Assets/AndroidUltimatePlugin/Common/AUPHolder.cs
+Assets/AndroidUltimatePlugin/Common/DemoController.cs
+Assets/AndroidUltimatePlugin/Common/Extension/GooglePlayGames/GPGController.cs
+Assets/AndroidUltimatePlugin/Common/Utils.cs
+Assets/AndroidUltimatePlugin/Common/UtilsPlugin.cs
+Assets/AndroidUltimatePlugin/Common/dispatcher/Dispatcher.cs
+Assets/AndroidUltimatePlugin/Common/dispatcher/interfaces/IDispatcher.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Callback/SpeechCallback.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Callback/TTSCallback.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Enum/EnumExtentions.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Enum/SpeechExtraLocale.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Enum/SpeechLocale.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Enum/SpeechRecognizerError.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Enum/TTSLocaleCountry.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Example/SpeechRecognizerDemo.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Example/SpeechRecognizerDemo2.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Example/TextToSpeechDemo.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Example/TextToSpeechDemo2.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Helpers/SpeechLocaleHelper.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Main/SpeechPlugin.cs
+Assets/AndroidUltimatePlugin/SpeechTTS/Scripts/Main/TextToSpeechPlugin.cs
+Assets/AnimatedTex/AnimatedTextureUV.cs
+Assets/Buildr/Runtime/BuildrRuntimeConstraints.cs
+Assets/Buildr/Runtime/BuildrRuntimeGenerator.cs
+Assets/Buildr/Runtime/CreateBuilding.cs
+Assets/Buildr/Scripts/BuildrBay.cs
+Assets/Buildr/Scripts/BuildrBuilding.cs
+Assets/Buildr/Scripts/BuildrBuildingBayModels.cs
+Assets/Buildr/Scripts/BuildrBuildingBox.cs
+Assets/Buildr/Scripts/BuildrBuildingCollider.cs
+Assets/Buildr/Scripts/BuildrBuildingDetails.cs
+Assets/Buildr/Scripts/BuildrBuildingGenerator.cs
+Assets/Buildr/Scripts/BuildrBuildingLowDetail2.cs
+Assets/Buildr/Scripts/BuildrBuildingOneDrawCall.cs
+Assets/Buildr/Scripts/BuildrData.cs
+Assets/Buildr/Scripts/BuildrDetail.cs
+Assets/Buildr/Scripts/BuildrEditMode.cs
+Assets/Buildr/Scripts/BuildrFacadeDesign.cs
+Assets/Buildr/Scripts/BuildrGenerateConstraints.cs
+Assets/Buildr/Scripts/BuildrGenerateMode.cs
+Assets/Buildr/Scripts/BuildrInteriors.cs
+Assets/Buildr/Scripts/BuildrPlan.cs
+Assets/Buildr/Scripts/BuildrRoof.cs
+Assets/Buildr/Scripts/BuildrRoofDesign.cs
+Assets/Buildr/Scripts/BuildrStairs.cs
+Assets/Buildr/Scripts/BuildrTexture.cs
+Assets/Buildr/Scripts/BuildrVolume.cs
+Assets/Buildr/Scripts/BuildrVolumeStyles.cs
+Assets/Buildr/Scripts/Enums/BuildrColours.cs
+Assets/Buildr/Scripts/Enums/BuildrFiletypes.cs
+Assets/Buildr/Scripts/Enums/BuildrMeasurements.cs
+Assets/Buildr/Scripts/Enums/BuildrVersion.cs
+Assets/Buildr/Scripts/Enums/ShaderProperties.cs
+Assets/Buildr/Scripts/Utils/BuildrPolyClockwise.cs
+Assets/Buildr/Scripts/Utils/BuildrProjectUVs.cs
+Assets/Buildr/Scripts/Utils/BuildrTexturePacker.cs
+Assets/Buildr/Scripts/Utils/BuildrTexturePacker2.cs
+Assets/Buildr/Scripts/Utils/BuildrUpgrader.cs
+Assets/Buildr/Scripts/Utils/BuildrUtils.cs
+Assets/Buildr/Scripts/Utils/DynamicMeshGeneric.cs
+Assets/Buildr/Scripts/Utils/DynamicMeshGenericMultiMaterial.cs
+Assets/Buildr/Scripts/Utils/DynamicMeshGenericMultiMaterialMesh.cs
+Assets/Buildr/Scripts/Utils/EarClipper.cs
+Assets/Buildr/Scripts/Utils/ExportMaterial.cs
+Assets/Buildr/Scripts/Utils/RandomGen.cs
+Assets/Buildr/Scripts/Utils/RectanglePack.cs
+Assets/Buildr/Scripts/Utils/StraightSkeleton.cs
+Assets/Buildr/Scripts/Utils/TextureScale.cs
+Assets/Buildr/Scripts/Utils/Vector2z.cs
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_AAA_Blood.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_AAA_SuperComputer.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_AAA_SuperHexagon.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_AAA_WaterDrop.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Alien_Vision.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Antialiasing_FXAA.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Atmosphere_Snow_8bits.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Blend.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_BlueScreen.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Color.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_ColorBurn.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_ColorDodge.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Darken.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_DarkerColor.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Difference.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Divide.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Exclusion.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_GreenScreen.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_HardLight.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_HardMix.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Hue.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Lighten.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_LighterColor.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_LinearBurn.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_LinearDodge.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_LinearLight.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Luminosity.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Multiply.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Overlay.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_PhotoshopFilters.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_PinLight.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Saturation.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Screen.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_SoftLight.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_SplitScreen.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_Subtract.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blend2Camera_VividLight.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blizzard.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Bloom.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_BlurHole.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Blurry.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_DitherOffset.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Dithering2x2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Focus.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_GaussianBlur.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Movie.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Noise.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Radial.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Radial_Fast.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Regular.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Blur_Steam.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_BrightContrastSaturation.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Chromatic_Aberration.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Contrast.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_GrayScale.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Invert.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Noise.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_RGB.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Sepia.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_Switching.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Color_YUV.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_Adjust_ColorRGB.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_Adjust_FullColors.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_Adjust_PreFilters.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_Brightness.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_DarkColor.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_HSV.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_HUE_Rotate.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_NewPosterize.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Colors_Threshold.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_BigFace.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_BlackHole.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Dissipation.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Dream.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Dream2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_FishEye.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Flag.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Flush.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Half_Sphere.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Heat.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Lens.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Noise.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_ShockWave.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Water_Drop.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Distortion_Wave_Horizontal.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_CellShading.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_CellShading2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Comics.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Crosshatch.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Curve.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_EnhancedComics.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Halftone.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Laplacian.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Lines.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga3.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga4.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga5.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga_Color.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga_Flash.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Manga_FlashWhite.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_NewCellShading.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Drawing_Toon.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_EXTRA_Rotation.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_EXTRA_SHOWFPS.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_BlackLine.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_Edge_filter.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_Golden.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_Neon.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_Sigmoid.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Edge_Sobel.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_EyesVision_1.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_EyesVision_2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_8bits.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_8bits_gb.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Ascii.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_DigitalMatrix.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_DigitalMatrixDistortion.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Dot_Circle.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Drunk.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Drunk2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_EarthQuake.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Funk.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Glitch1.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Glitch2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Glitch3.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Grid.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Hexagon.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Hexagon_Black.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Hypno.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_InverChromiLum.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Mirror.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Plasma.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Psycho.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Scan.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Screens.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_Spot.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_ZebraColor.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_FX_superDot.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Film_ColorPerfection.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Film_Grain.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Glitch_Mozaic.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Ansi.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Desert.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_ElectricGradient.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_FireGradient.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Hue.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_NeonGradient.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Rainbow.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Stripe.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Tech.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Gradients_Therma.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Light_Rainbow.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Light_Rainbow2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Light_Water.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Light_Water2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_NightVisionFX.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_NightVision_4.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Oculus_NightVision1.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Oculus_NightVision2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Oculus_NightVision3.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Oculus_NightVision5.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Oculus_ThermaVision.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_OldFilm_Cutting1.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_OldFilm_Cutting2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Pixel_Pixelisation.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Pixelisation_Dot.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Pixelisation_OilPaint.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Pixelisation_OilPaintHQ.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Real_VHS.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Retro_Loading.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Sharpen_Sharpen.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Special_Bubble.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_50.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_80.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_ARCADE.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_ARCADE_2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Artefact.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_BrokenGlass.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_BrokenGlass2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Chromatical.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Chromatical2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_CompressionFX.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Distorted.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_LED.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Noise.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Old.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Old_Movie.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Old_Movie_2.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_PlanetMars.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Posterize.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Rgb.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Tiles.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_VHS.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_VHS_Rewind.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Vcr.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Video3D.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Videoflip.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_Vintage.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_WideScreenCircle.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_WideScreenHV.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_WideScreenHorizontal.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_TV_WideScreenVertical.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_VHS_Tracking.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Aura.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_AuraDistortion.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Blood.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Crystal.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Drost.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Plasma.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Psycho.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Rainbow.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Tunnel.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Warp.cs"
+"Assets/Camera Filter Pack/Scripts/CameraFilterPack_Vision_Warp2.cs"
+Assets/DemoSceneAssets/Scripts/BackToScene.cs
+Assets/DemoSceneAssets/Scripts/CheckAvailability.cs
+Assets/DemoSceneAssets/Scripts/CloseApplication.cs
+Assets/DemoSceneAssets/Scripts/CreateHouses.cs
+Assets/DemoSceneAssets/Scripts/DampenCameraMovement.cs
+Assets/DemoSceneAssets/Scripts/LoaderGUI.cs
+Assets/DemoSceneAssets/Scripts/MoveToPoint.cs
+Assets/DemoSceneAssets/Scripts/Rotate.cs
+Assets/DemoSceneAssets/Scripts/SwitchCamera.cs
+Assets/EasyTouchBundle/EasyTouch/Example/AdvancedExamples/AutoSelect/MultiLayerTouch.cs
+Assets/EasyTouchBundle/EasyTouch/Example/AdvancedExamples/AutoSelect/MultiLayerUI.cs
+Assets/EasyTouchBundle/EasyTouch/Example/AdvancedExamples/MultiCamera/MultiCameraTouch.cs
+Assets/EasyTouchBundle/EasyTouch/Example/AdvancedExamples/MultiCamera/MultiCameraUI.cs
+Assets/EasyTouchBundle/EasyTouch/Example/GameExemple/RTSExample/CubeSelect.cs
+Assets/EasyTouchBundle/EasyTouch/Example/GameExemple/RTSExample/RTSCamera.cs
+Assets/EasyTouchBundle/EasyTouch/Example/GameExemple/RunBall/Ball.cs
+Assets/EasyTouchBundle/EasyTouch/Example/GameExemple/RunBall/BallRunPlayer.cs
+Assets/EasyTouchBundle/EasyTouch/Example/GameExemple/RunBall/ThirdPersonCamera.cs
+Assets/EasyTouchBundle/EasyTouch/Example/LoadExamples.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/MultiFinger/FingerTouch.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/MultiFinger/MutliFingersScreenTouch.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/DoubleTapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/DragMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/LongTapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/Swipe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/TapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/OneFinger/TouchMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/PinchMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TooglePickMethodUI.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwistMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoDoubleTapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoDragMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoLongTapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoSwipe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoTapMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/SimpleExamples/TwoFingers/TwoTouchMe.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UICompatibility/ETWindow.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UICompatibility/GlobalEasyTouchEvent.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UICompatibility/UICompatibility.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UICompatibility/UIWindow.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UITwistPinch/UIDrag.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UITwistPinch/UIPinch.cs
+Assets/EasyTouchBundle/EasyTouch/Example/UnityUI/UITwistPinch/UITwist.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/BaseFinger.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Component/EasyTouchTrigger.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/ECamera.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/EasyTouch.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/EasyTouchInput.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Finger.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/Gesture.cs
+Assets/EasyTouchBundle/EasyTouch/Plugins/TwoFingerGesture.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/Button-Event-Input/ButtonInputUI.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/Button-Event-Input/ButtonUIEvent.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/ControlEventInput/ControlUIEvent.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/ControlEventInput/ControlUIInput.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/DPadClassicalTime/DPadParameterUI.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/FPSExample/FPSPlayerControl.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/FPSExample/ImpactEffect.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/JoystickParameter/AxisXUi.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/LoadLevelScript.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/TouchPad-Event-Input/TouchPadUIEvent.cs
+Assets/EasyTouchBundle/EasyTouchControls/Examples/_Medias/SliderText.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ComponentExtensions.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCArea.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCAxis.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCBase.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCButton.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCDPad.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCInput.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCJoystick.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCSingleton.cs
+Assets/EasyTouchBundle/EasyTouchControls/Plugins/ETCTouchPad.cs
+Assets/GooglePlayGames/BasicApi/Achievement.cs
+Assets/GooglePlayGames/BasicApi/CommonStatusCodes.cs
+Assets/GooglePlayGames/BasicApi/CommonTypes.cs
+Assets/GooglePlayGames/BasicApi/DummyClient.cs
+Assets/GooglePlayGames/BasicApi/Events/IEvent.cs
+Assets/GooglePlayGames/BasicApi/Events/IEventsClient.cs
+Assets/GooglePlayGames/BasicApi/IPlayGamesClient.cs
+Assets/GooglePlayGames/BasicApi/LeaderboardScoreData.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/IRealTimeMultiplayerClient.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/ITurnBasedMultiplayerClient.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Invitation.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/MatchOutcome.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Participant.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/Player.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/RealTimeMultiplayerListener.cs
+Assets/GooglePlayGames/BasicApi/Multiplayer/TurnBasedMatch.cs
+Assets/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs
+Assets/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs
+Assets/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs
+Assets/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs
+Assets/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs
+Assets/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs
+Assets/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs
+Assets/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs
+Assets/GooglePlayGames/BasicApi/PlayerStats.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuest.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuestMilestone.cs
+Assets/GooglePlayGames/BasicApi/Quests/IQuestsClient.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs
+Assets/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs
+Assets/GooglePlayGames/BasicApi/ScorePageToken.cs
+Assets/GooglePlayGames/GameInfo.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs
+Assets/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs
+Assets/GooglePlayGames/OurUtils/Logger.cs
+Assets/GooglePlayGames/OurUtils/Misc.cs
+Assets/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs
+Assets/GooglePlayGames/Platforms/Android/AndroidClient.cs
+Assets/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs
+Assets/GooglePlayGames/Platforms/Android/Developers/JavaInterfaceProxy.cs
+Assets/GooglePlayGames/Platforms/Android/Developers/JavaObjWrapper.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/GoogleApiClient.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/PendingResult.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Result.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallback.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallbackProxy.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Status.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Common/ConnectionResult.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Games.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/LoadPlayerStatsResultObject.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStats.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStatsObject.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/Stats.cs
+Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/StatsObject.cs
+Assets/GooglePlayGames/Platforms/IClientImpl.cs
+Assets/GooglePlayGames/Platforms/IOS/IOSClient.cs
+Assets/GooglePlayGames/Platforms/IOS/IOSTokenClient.cs
+Assets/GooglePlayGames/Platforms/Native/CallbackUtils.cs
+Assets/GooglePlayGames/Platforms/Native/ConversionUtils.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Achievement.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/AchievementManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/AndroidPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Builder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/CommonErrorStatus.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/EndpointDiscoveryListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Event.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/EventManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/GameServices.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/InternalHooks.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/IosPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Leaderboard.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/LeaderboardManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MessageListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerInvitation.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerParticipant.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionTypes.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnections.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsStatus.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ParticipantResults.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Player.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerStats.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Quest.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestMilestone.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeEventListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeMultiplayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoom.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfig.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Score.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScorePage.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScoreSummary.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Sentinels.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadata.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChange.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChangeBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/StatsManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Status.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/SymbolLocation.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatch.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfig.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMultiplayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/Cwrapper/Types.cs
+Assets/GooglePlayGames/Platforms/Native/JavaUtils.cs
+Assets/GooglePlayGames/Platforms/Native/NativeClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeEventClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionClientFactory.cs
+Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionsClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeQuestClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeRealtimeMultiplayerClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeSavedGameClient.cs
+Assets/GooglePlayGames/Platforms/Native/NativeTurnBasedMultiplayerClient.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/AchievementManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/AndroidPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/BaseReferenceHolder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/Callbacks.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/EventManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServices.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServicesBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/IosPlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/LeaderboardManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerInvitation.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerParticipant.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAchievement.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAppIdentifier.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionRequest.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionResponse.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDetails.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDiscoveryListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEvent.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeLeaderboard.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeMessageListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayer.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayerStats.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuest.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuestMilestone.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeRealTimeRoom.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScore.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreEntry.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePage.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePageToken.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreSummary.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadata.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadataChange.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeStartAdvertisingResult.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeTurnBasedMatch.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManagerBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PInvokeUtilities.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/ParticipantResults.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlatformConfiguration.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerSelectUIResponse.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/QuestManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealTimeEventListenerHelper.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfig.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/SnapshotManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/StatsManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedManager.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfig.cs
+Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfigBuilder.cs
+Assets/GooglePlayGames/Platforms/Native/UnsupportedSavedGamesClient.cs
+Assets/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs
+Assets/GooglePlayGames/Platforms/PlayGamesClientFactory.cs
+Assets/GooglePlayGames/Platforms/TokenClient.cs
+Assets/GooglePlayGames/PluginVersion.cs
+Assets/GyroDroid/SampleScripts/LightControl.cs
+Assets/GyroDroid/SampleScripts/MagneticFieldCamera.cs
+Assets/GyroDroid/SampleScripts/MinimalSensorCamera.cs
+Assets/GyroDroid/SampleScripts/MoveByLinearAcc.cs
+Assets/GyroDroid/SampleScripts/SpaceShipControl.cs
+Assets/GyroDroid/SampleScripts/SwitchRotationMode.cs
+Assets/GyroDroid/SampleScripts/TurntableSensorCamera.cs
+Assets/GyroDroid/Scripts/Debug/SensorStatisticsGUI.cs
+Assets/GyroDroid/Scripts/Devices/SensorDeviceAndroid.cs
+Assets/GyroDroid/Scripts/Devices/SensorDeviceIPhone.cs
+Assets/GyroDroid/Scripts/Devices/SensorDeviceUnity.cs
+Assets/GyroDroid/Scripts/Devices/SensorEditorUnity.cs
+Assets/GyroDroid/Scripts/Enums/RotationFallbackType.cs
+Assets/GyroDroid/Scripts/Enums/SensorDelay.cs
+Assets/GyroDroid/Scripts/Enums/SensorStatus.cs
+Assets/GyroDroid/Scripts/Enums/SensorSurfaceRotation.cs
+Assets/GyroDroid/Scripts/Enums/Type.cs
+Assets/GyroDroid/Scripts/Filters/AngleFilter.cs
+Assets/GyroDroid/Scripts/Filters/Filter.cs
+Assets/GyroDroid/Scripts/Filters/FloatFilter.cs
+Assets/GyroDroid/Scripts/Filters/QuaternionFilter.cs
+Assets/GyroDroid/Scripts/Filters/Vector3Filter.cs
+Assets/GyroDroid/Scripts/Sensor.cs
+Assets/GyroDroid/Scripts/SensorHelper.cs
+Assets/GyroDroid/Scripts/Utils/GravityValue.cs
+Assets/GyroDroid/Scripts/Utils/LightValue.cs
+Assets/GyroDroid/Scripts/Utils/MagneticFieldValue.cs
+Assets/GyroDroid/Scripts/Utils/NonAndroidFallback.cs
+Assets/GyroDroid/Scripts/Utils/PressureValue.cs
+Assets/GyroDroid/Scripts/Utils/Sensor.Information.cs
+"Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX2_Demo.cs"
+"Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RandomDir.cs"
+"Assets/JMO Assets/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs"
+"Assets/JMO Assets/Cartoon FX/Scripts/CFX2_AutoRotate.cs"
+"Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs"
+"Assets/JMO Assets/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs"
+"Assets/JMO Assets/Cartoon FX/Scripts/CFX_LightIntensityFade.cs"
+"Assets/JMO Assets/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs"
+"Assets/JMO Assets/Cartoon FX/Spawn System/CFX_SpawnSystem.cs"
+Assets/SampleScenes/Menu/Scripts/MenuSceneLoader.cs
+Assets/SampleScenes/Menu/Scripts/PauseMenu.cs
+Assets/SampleScenes/Menu/Scripts/ReturnToMainMenu.cs
+Assets/SampleScenes/Menu/Scripts/SceneAndURLLoader.cs
+Assets/SampleScenes/Scripts/CameraSwitch.cs
+Assets/SampleScenes/Scripts/LevelReset.cs
+Assets/SampleScenes/Scripts/ParticleSceneControls.cs
+Assets/SampleScenes/Scripts/PlaceTargetWithMouse.cs
+Assets/SampleScenes/Scripts/SlowMoButton.cs
+Assets/Scripts/BillboardScript.cs
+Assets/Scripts/MouseLook.cs
+Assets/Scripts/PlanetMouseOrbit.cs
+Assets/Scripts/PlanetRotateScript.cs
+Assets/ZSurvival.cs
+Assets/sCRIPT/AIZombie.cs
+Assets/sCRIPT/GoogleAPIManager.cs
+Assets/sCRIPT/MathUtils.cs
+Assets/sCRIPT/Purchaser.cs
+Assets/sCRIPT/SplineController.cs
+Assets/sCRIPT/SplineInterpolator.cs
+Assets/sCRIPT/UnityAdsExample.cs
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"

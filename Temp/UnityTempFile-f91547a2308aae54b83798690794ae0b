@@ -1,0 +1,181 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp-Editor-firstpass.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEditor.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/nunit.framework.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/EditorTestsRunner/Editor/UnityEditor.EditorTestsRunner.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/Editor/UnityEditor.UI.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll"
+-r:"Assets/JMO Assets/Editor/JMOAssets.dll"
+-r:Assets/Movinarc/PackageUninstaller/Editor/SharpCompress.3.5.dll
+-r:Assets/PlayServicesResolver/Editor/Google.IOSResolver.dll
+-r:Assets/PlayServicesResolver/Editor/Google.JarResolver.dll
+-r:Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll
+-r:Assets/Plugins/Editor/AdvancedInspector/AdvancedInspector.dll
+-r:Assets/Plugins/Editor/AdvancedInspector/UniToolsEditor.dll
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/TizenPlayer/UnityEditor.Tizen.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll"
+-r:"I:/Unity 5.4.03/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll"
+-define:UNITY_5_3_OR_NEWER
+-define:UNITY_5_4_OR_NEWER
+-define:UNITY_5_4_0
+-define:UNITY_5_4
+-define:UNITY_5
+-define:UNITY_ADS
+-define:UNITY_PURCHASING
+-define:UNITY_ANALYTICS
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_EDITOR_RETINA
+-define:ENABLE_RETINA_GUISTYLES
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_COLLAB
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:INCLUDE_PUBNUB
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:UNITY_CAN_SHOW_SPLASH_SCREEN
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+-define:UNITY_TEAM_LICENSE
+-define:ENABLE_DUCK_TYPING
+-define:CROSS_PLATFORM_INPUT
+Assets/Plugins/Editor/AdvancedInspector/Examples/ExternalInspectorWindow.cs
+Assets/Plugins/Editor/AdvancedInspector/ExtraGUI/ExtraGUI.cs
+Assets/Plugins/Editor/AdvancedInspector/ExtraGUI/ExtraGUILayout.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/AnimationCurveEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/BooleanEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/BoundsEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/CharEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/ColorEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/DateTimeEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/EnumEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/FloatEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/GradientEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/GuidEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/IntegerEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/LayerMaskEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/MonoEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/ObjectEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/QuaternionEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/RangeEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/RectEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/RigidbodyConstraintsEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/StringEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/TimeSpanEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/FieldEditors/VectorEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/AnchoredJoint2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/AnimationEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/AnimatorEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/BoxColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/CameraEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/CapsuleColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/CharacterControllerEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/CharacterJointEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/ClothEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/ClothRendererEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/ColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/ConstantForceEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/FixedJointEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/HingeJoint2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/HingeJointEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/Joint2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/JointEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/LightEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/MeshColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/MeshEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/MeshFilterEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/MeshRendererEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/RendererEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/Rigidbody2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/RigidbodyEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SkinnedMeshRendererEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SphereColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SpringJoint2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SpringJointEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SpriteRendererEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointAngleLimits2D.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointDriveEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointLimitsEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointMotor2DEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointMotorEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/JointSpringEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/SoftJointLimitEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/SubTypes/WheelFrictionCurveEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/TerrainColliderEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/TextMeshEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/TransformEditor.cs
+Assets/Plugins/Editor/AdvancedInspector/UnityTypes/WheelColliderEditor.cs
+Assets/Plugins/Editor/Control-Freak-Editor/TouchControllerCodeTemplateGenerator.cs
+Assets/Plugins/Editor/Control-Freak-Editor/TouchControllerConstGenerator.cs
+Assets/Plugins/Editor/Control-Freak-Editor/TouchControllerEditor.cs
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\2.0\System.Runtime.Serialization.dll"
+-r:"I:\Unity 5.4.03\Unity\Editor\Data\Mono\lib\mono\2.0\System.Xml.Linq.dll"
