@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{2F7E8D01-2B42-5EB8-1D12-E32E94804410}") = "Samsung VR 2", "Assembly-CSharp-firstpass.csproj", "{3D86B220-72F3-7035-72BF-400E6AE9295B}"
+EndProject
+Project("{2F7E8D01-2B42-5EB8-1D12-E32E94804410}") = "Samsung VR 2", "Assembly-CSharp.csproj", "{44D46E7D-6D7F-AF67-54D8-7430FF51CC94}"
+EndProject
+Project("{2F7E8D01-2B42-5EB8-1D12-E32E94804410}") = "Samsung VR 2", "Assembly-CSharp-Editor.csproj", "{D7031FE0-11F6-08DF-F6EE-8A3FBE40E297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D86B220-72F3-7035-72BF-400E6AE9295B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D86B220-72F3-7035-72BF-400E6AE9295B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D86B220-72F3-7035-72BF-400E6AE9295B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D86B220-72F3-7035-72BF-400E6AE9295B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D46E7D-6D7F-AF67-54D8-7430FF51CC94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D46E7D-6D7F-AF67-54D8-7430FF51CC94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D46E7D-6D7F-AF67-54D8-7430FF51CC94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D46E7D-6D7F-AF67-54D8-7430FF51CC94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7031FE0-11F6-08DF-F6EE-8A3FBE40E297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7031FE0-11F6-08DF-F6EE-8A3FBE40E297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7031FE0-11F6-08DF-F6EE-8A3FBE40E297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7031FE0-11F6-08DF-F6EE-8A3FBE40E297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
