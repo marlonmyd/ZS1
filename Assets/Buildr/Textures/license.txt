@@ -1,0 +1,4 @@
+This license extends the standard Unity Asset Store license and effects only the textures bundled with BuildR.
+The textures bundled in this package have been created with images from CGTextures.com. 
+These images may not be redistributed by default but can be used with BuildR to create buildings for inclusion in Unity projects. 
+Please visit www.cgtextures.com for more information.

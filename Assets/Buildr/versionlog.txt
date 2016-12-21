@@ -1,0 +1,90 @@
+BuildR Version Log
+
+1.15 20 August 2014
+Added error message when generating stairs without a core
+
+1.14 17 July 2014
+Fixed generated gaps in facade
+Fixed mesh not rendering parts in large buildings
+
+1.13 7 July 2014
+Fixed Barrel roof generation error
+Fixed Mansard roof UV issues
+Fixed collider placement
+
+1.12 17 April 2014
+ADDED User Material Support
+Fixed UV calculations
+Fixed bay models not clearing on floorplan mode
+Fixed error when there are no bays in a facade pattern
+Fixed duplicate bay not including bay model
+Fixed recentering plan leaving core behind
+
+1.1 - 17 February 2014
+ADDED Substance support
+ADDED Basements
+ADDED Staircase generation
+ADDED Custom window mesh placement
+ADDED Foundation colliders and textures
+ADDED Texture/Facade/Roof design export and import
+ADDED Collider generation to support interiors
+ADDED Constrain generated building floorplan by area
+FIXED Moved to new Unity undo system for 4.3
+FIXED Mesh export position incorrect
+FIXED Foundation generation
+FIXED export texture issues
+FIXED generate mode textures not updating when changing texture pack
+
+1.01 - October 22nd 2013
+FIXED Export textures
+FIXED Unreadable textures
+
+1.0 - October 18th 2013
+ADDED interior generation
+ADDED building core generation
+ADDED Runtime generation example
+Building materials streamlined to reduce drawcalls
+FIXED Shader menu for 4.2 version
+FIXED XML Import/Export bug
+
+0.91 - August 14th 2013
+ADDED constraining the generate mode to a floorplan of the users design
+ADDED floorplan centering
+ADDED floorplan grid snapping
+FIXED Low Detail roof texture bug
+FIXED Detail errors appearing for some buildings
+
+0.9 - August 1st 2013
+ADDED Building Details - add additional/custom models to buildings
+ADDED One click building generation options expanded
+ADDED 65K+ models supported
+Unity 3.5 support dropped
+
+0.8 - June 21st 2013
+ADDED One click building generation (beta)
+Low Detail model generation performance significantly improved
+In editor building generation improvements
+GUI Overhaul
+
+0.7 – June 8 2013
+ADDED Complex facades and doors
+ADDED Core optimisations
+ADDED Beast lightmapping compatibility
+ADDED Better tangent generation
+
+0.6 – April 23 2013
+ADDED Export buildings to FBX now available!
+ADDED Export simple building colliders
+ADDED Can export to a prefab now
+ADDED Export GUI/Function improved
+ADDED Floorplan volume editing can now merge and split volumes
+ADDED Toggle wireframe display in editor mode
+Minor bugfixes and changes
+
+Version 0.5
+This is the first release candidate - still in beta.
+
+Known Issues
+Handles do not deal with rotating the base game object in this version
+Parapet wall textures uvs can be buggy
+Unity sometimes logs a message about leaking objects. This is a known and benign issue that I'm looking to resolve.
